@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 12px;
+}
+
+h1 {
+  color: indigo;
+  font-size: 3rem;
+}
+
+body img.body_img {
+  height: auto;
+  width: 100%;
+}
+body p.body_p--firstpara {
+  font-size: 1.5rem;
+  color: lawngreen;
+}
+body p.body_p--secondpara {
+  font-size: 1.5rem;
+}
+body a button.body_button--danger {
+  color: red;
+}
+
+@media only screen and (min-width: 1920px) {
+  html {
+    font-size: 15px;
+  }
+
+  body img.body_img {
+    height: 500px;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 640px) {
+  html {
+    font-size: 18px;
+  }
+
+  body img.body_img {
+    height: 500px;
+    width: 250px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
